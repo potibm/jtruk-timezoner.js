@@ -18,6 +18,8 @@ If you are upgrading the script, please check the [upgrade](#upgrade) instructio
 - [Lovebyte 2025](https://lovebyte.party/#Timetable)
 - [Evoke 2025](https://2025.evoke.eu/party/timetable/)
 - [Deadline 2025](https://www.demoparty.berlin/events/)
+- [Inercia 2025](https://2025.inercia.pt/en/schedule/)
+- [Evoke 2026](https://2026.evoke.eu/party/timetable/)
 
 ## Overview
 
