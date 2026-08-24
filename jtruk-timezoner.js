@@ -2,11 +2,11 @@
 
 // ============================================================
 // Timezoner - Easy timezone shifting for your website visitors 
-// JTRUK 2024-5. Demoparties and live events are very welcome to use this
+// JTRUK 2024-. Demoparties and live events are very welcome to use this
 // Please drop me a line if you do!
 // Latest version, docs, contact:
 // https://github.com/creativenucleus/jtruk-timezoner.js
-// Update: 2025/02/10
+// Update: 2026/08/24
 
 const jtzrInit = (() => {
     // jtzr gets set by init...
@@ -122,7 +122,7 @@ const jtzrInit = (() => {
 
         let localOffset = getLocalTimezoneUTC();
         html += `<option value="${localOffset}">Your System Timezone: ${getTimezoneLegend(localOffset)}</option>`;
-        html += "<option disabled role=separator>---------</a>";
+        html += "<option disabled role=separator>---------</option>";
 
         const offsets = [-12,-11,-10,-9.5,-9,-8,-7,-6,-5,-4,-3.5,-3,-2,-1,0,1,2,3,3.5,4,4.5,5,5.5,5.75,6,6.5,7,8.75,9,9.5,10,10.5,11,12,12.75,13,14]
         offsets.forEach((offset) => {
