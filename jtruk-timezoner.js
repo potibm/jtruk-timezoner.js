@@ -242,3 +242,10 @@ const jtzrInit = (() => {
 
     return init;
 })();
+
+if (typeof exports === 'object' && typeof module !== 'undefined') {
+    module.exports = jtzrInit;
+} 
+else {
+    window.jtzrInit = jtzrInit;
+}
